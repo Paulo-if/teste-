@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-azul-fundo: #0F1F4D;
+  --color-azul-principal: #1E3A8A;
+  --color-azul-vibrante: #2563EB;
+  --color-preto: #0F172A;
+  --color-branco: #FFFFFF;
+  --color-cinza-claro: #F1F5F9;
+  --color-cinza-borda: #E2E8F0;
+  --shadow-card: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+
+:root {
+  --azul-fundo: #0F1F4D;
+  --azul-principal: #1E3A8A;
+  --azul-vibrante: #2563EB;
+  --preto: #0F172A;
+  --branco: #FFFFFF;
+  --cinza-claro: #F1F5F9;
+  --cinza-borda: #E2E8F0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #F1F5F9;
+  color: #0F172A;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.product-card-shadow {
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+
+/* Custom scrollbar hiding if needed */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
